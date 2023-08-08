@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(249, 211, 154);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    border: 2px grey solid;
+}
+
+#title {
+    color: rgb(255, 217, 0);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#screen {
+    background-color: bisque;
+    border: 1px solid black;
+    width: 60vw;
+    height: 55vh;
+    margin: 1rem 4rem;
+}
+
+#controls {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+#btnLeft,
+#btnRight {
+    background-color: antiquewhite;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+}
+
+#colors {
+    margin-top: 35px;
+    height: 24px;
+    width: 200px;
+    background-color: aliceblue;
+}

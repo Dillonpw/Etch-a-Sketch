@@ -7,7 +7,6 @@ body {
 }
 
 .content {
-    
     background-color: red;
     display: flex;
     flex-direction: column;
@@ -25,15 +24,16 @@ body {
 #screen {
     background-color: bisque;
     border: 1px solid black;
-    width: 400px;
-    height: 500px;
+    width: 45vh;
+    height: 70vw;
     margin: 1rem 4rem;
     position: relative;
-    cursor:pointer
+    cursor: pointer;
 }
 
-.pixels{
-    height: 12px; width: 12px;
+.pixels {
+    height: 12px;
+    width: 12px;
     position: absolute;
 }
 
@@ -62,8 +62,8 @@ body {
     width: 200px;
 }
 
-.instructions{
-    display:flex;
+.instructions {
+    display: flex;
     flex-direction: column;
     align-items: center;
     line-height: 2px;
